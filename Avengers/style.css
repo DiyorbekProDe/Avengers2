@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* .wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #333;
+    padding: 1rem 0;
+    z-index: 200;
+
+} */
+.wrapper{
+    z-index: 100;
+}
+::selection{
+    color: lawngreen;
+}
+body{
+    overflow-x: hidden;
+}
+.wrapper{
+    background-color: black;
+    padding: 30px;
+}
+.navbar li a{
+    color: white;
+}
+.big-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+}
+.big-box .navbar{
+    display: flex;    
+}
+.navbar li a{
+    padding: 30px;
+    text-transform: capitalize;
+}
+.navbar li a:hover{
+    color: lawngreen;
+}
+.big-box span img{
+    width: 18% !important;
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+.big-box h1 a{
+    color: purple;
+    font-size: 40px;
+}
+.box{
+    background: url(./img/img8.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+}
+.box h1{
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+    font-size: 80px;
+    position: relative;
+    bottom: 10px;
+}
+.box p{
+    text-align: center;
+    color: white;
+}
+.btn{
+    margin-left: 655px;
+    width: 200px;
+    position: relative;
+    top: 15px;
+    border: none;
+    height: 40px;
+    text-transform: capitalize;
+    background: black;
+    color: white;
+    font-size: 16px;
+}
+.btn:active{
+    transform: scale(0.9);
+}
+.big-box3 img{
+    width: 20%;
+    height: 50vh;
+    background-size: cover;
+    object-fit: cover;
+    margin: 120px auto;
+}
+.big-box3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container3 h1{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+}
+.container3 p{
+    text-align: center;
+    position: relative;
+    top: 70px ;
+    font-weight: bold;
+}
+.avengers{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.temir {
+    position: relative;
+    right: 8px;
+    /* margin-right: 8px; */
+    color: red;
+}
+.Cap{
+    position: relative;
+    right: 56px;
+    color: red;
+    /* margin-right: 115px; */
+}
+.Thor{
+    position: relative;
+    right: 75px;
+    /* margin-right: 170px; */
+    color: #00c3ff;
+}
+.halk{
+    position: relative;
+    right: 15px;
+    color: green;
+}
+.container3 span{
+    color: #00c3ff;
+}
+.Card{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 150px;
+}
+.containertwo .row{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row .right img{
+    width: 100%;
+    /* position: absolute; */
+    height: 80vh;
+    background-size: cover !important;
+    object-fit: cover;
+}
+.left{
+    width: 80%;
+    /* background: ; */
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 40px;
+}
+.tun{
+    width: 90%;
+    height: 4vh;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    bottom: 30px;
+}
+.tun2{
+    width: 80%;
+    height: 4vh;
+    background: red;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 10px;
+}
+.tun7{
+    width: 90%;
+    height: 4vh;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    bottom: -10px;
+}
+.tun1{
+    width: 90%;
+    height: 4vh;
+    background: #00c3ff;
+}
+.box3{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: -20px;
+}
+.tun3{
+    width: 90%;
+    height: 4vh;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    bottom: -30px;
+}
+.tun4{
+    width: 95%;
+    height: 4vh;
+    background: lawngreen;
+}
+
+.box4{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: -50px;
+}
+.tun5{
+    width: 90%;
+    height: 4vh;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    bottom: -60px;
+}
+.tun6{
+    width: 90%;
+    height: 4vh;
+    background: green;
+}
+.btn2{
+    position: relative;
+    top: 110px;
+    left: 250px;
+    width: 250px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aqua;
+    height: 50px;
+    border: none;
+}
+.btn2:active{
+    transform: scale(0.9);
+}
+.main .main2 img{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    object-fit: cover;
+}
+.main .main3 img{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    object-fit: cover;
+}
+.main2{
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+.btn3{
+    width: 30%;
+    height: 9vh;
+    text-transform: uppercase;
+    background: orange;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: none;
+}
+.btn3:active{
+    transform: scale(0.9);
+}
+.main2 h1{
+    margin-left: 20px;
+}
+.main2 p{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.main2 span {
+    position: relative;
+    bottom: 50px;
+    right: 199px;
+}
+.main{
+    position: relative;
+    top: 50px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    right: 20px;
+    display: flex;
+}
+.main3{
+    border: 1px solid black;
+}
+.btn4{
+    width: 30%;
+    height: 9vh;
+    text-transform: uppercase;
+    background: orange;
+    font-size: 25px;
+    margin-left: -33px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 20px;
+    border: none;
+}
+.btn3:active{
+    transform: scale(0.9);
+}
+.main3 h1{
+    margin-left: 20px;
+}
+.btn4:active{
+    transform: scale(0.9);
+}
+.main3 p{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.main3 span {
+    position: relative;
+    bottom: 70px;
+    right: -25px;
+}
+.main3{
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+.main h2{
+    position: relative; 
+    bottom: 150px;
+    left: 650px;
+    font-size: 60px; 
+    text-align: center !important;
+}
+.main h3{
+    position: relative; 
+    bottom: 90px;
+    left: 400px;
+    font-size: 60px; 
+    text-align: center !important;
+    background: red;
+    height: 70px;
+    text-transform: uppercase;
+    color: white;  
+}
+footer{
+    background: black;
+    color: white;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    height: 15vh;
+    text-transform: uppercase;
+}
+footer h1{
+    position: relative;
+    top: 40px;
+}
